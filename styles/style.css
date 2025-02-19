@@ -1,0 +1,112 @@
+/* added a inter font */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+.open-sans-inter {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+/* shared styles */
+
+/* navbar links styles */
+.header {
+  background-color: black;
+}
+.navbar,
+.nav-banner {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links {
+  display: flex;
+}
+.link {
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  margin: 10px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.nav-item {
+  list-style: none;
+}
+.nav-header {
+  font-size: 36px;
+  font-weight: 800;
+  color: rgba(230, 83, 60, 1);
+}
+.nav-btn {
+  background-color: rgba(230, 83, 60, 1);
+  padding: 4px;
+  border-radius: 7px;
+}
+/* banner style */
+.nav-banner {
+  display: flex;
+}
+.banner-header {
+  color: white;
+  font-size: 78px;
+  font-weight: 900;
+}
+
+.banner-description {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+}
+.primary-btn {
+  color: white;
+  background-color: rgba(230, 83, 60, 1);
+  font-size: 18px;
+  font-weight: 600;
+  padding: 16px 45px;
+  border-radius: 50px;
+  margin-right: 15px;
+}
+.btn-external {
+  color: white;
+  background-color: black;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 16px 45px;
+  border-radius: 50px;
+}
+/*  */
+.img-banner {
+  width: 100%;
+}
+.banner-img {
+  position: relative;
+}
+.banner-btn-first {
+  color: white;
+  background-color: rgba(48, 48, 48, 0.54);
+  position: absolute;
+  left: 0;
+  bottom: 100px;
+}
+.banner-btn-secend {
+  color: white;
+  background-color: rgba(48, 48, 48, 0.54);
+  position: absolute;
+  right: 0;
+  top: 100px;
+}
+.btn-header-latter {
+  font-size: 24px;
+  font-weight: 900;
+}
+.btn-non-header-latter {
+  font-size: 14px;
+  font-weight: 400;
+}
