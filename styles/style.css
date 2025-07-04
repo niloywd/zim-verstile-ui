@@ -49,6 +49,10 @@
   padding: 4px;
   border-radius: 7px;
 }
+.nav-humberg {
+  display: none;
+}
+
 /* banner style */
 .nav-banner {
   display: flex;
@@ -109,4 +113,96 @@
 .btn-non-header-latter {
   font-size: 14px;
   font-weight: 400;
+}
+/* respondive layout 1 */
+@media screen and (max-width: 576px) {
+  .nav-humberg {
+    display: block;
+  }
+  .nav-item {
+    display: none;
+  }
+  .banner-description {
+    grid-template-columns: ;
+  }
+  .primary-btn {
+    margin-bottom: 10px;
+  }
+  .nav-banner {
+    flex-direction: column;
+  }
+  .navbar,
+  .nav-banner {
+    padding: 20px;
+  }
+}
+
+/* layout 2 */
+#change-your-habit {
+  background-color: black;
+  max-width: 1440;
+  margin: 0 auto;
+}
+.niloy {
+  margin-bottom: 50px;
+}
+
+.parents-cng-habit-description {
+  text-align: center;
+}
+.header-cng-habit {
+  color: white;
+  font-size: 45px;
+  font-weight: 900;
+}
+.description-cng-habit {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+}
+/* layout 2 image file */
+.parents-img-cng-your-habit {
+  display: flex;
+  justify-content: center;
+}
+.img-banner-cng-habit {
+  border-radius: 50%;
+}
+.img-part-description {
+  margin-right: 55px;
+  text-align: center;
+}
+.img-header-cng-your-life {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+.img-description-cng-your-life {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+}
+/* responsive layout 2 */
+@media screen and (max-width: 576px) {
+  .parents-img-cng-your-habit {
+    flex-direction: column;
+  }
+  .niloy,
+  .parents-img-cng-your-habit {
+    padding: 38px;
+  }
+}
+
+/* layout 3 */
+.Run-an-Extra-Mile-Easily {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.parents-run-extra-mile-content {
+  display: flex;
+}
+.img-run-extra-mile {
+  width: 100%;
+}
+@media screen and (max-width: 576px) {
 }
