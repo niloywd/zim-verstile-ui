@@ -194,15 +194,28 @@
 }
 
 /* layout 3 */
-.Run-an-Extra-Mile-Easily {
-  max-width: 1440px;
-  margin: 0 auto;
+
+.run-extra-mile {
+  background-color: rgb(79, 82, 84);
 }
 .parents-run-extra-mile-content {
+  justify-content: space-between;
   display: flex;
+}
+.run-extra-mile {
+  padding: 25px;
+}
+.title-run-and-extra {
+  font-size: 3rem;
+}
+.description-run-an-extra {
+  font-size: 1rem;
 }
 .img-run-extra-mile {
   width: 100%;
 }
 @media screen and (max-width: 576px) {
+  .parents-run-extra-mile-content {
+    flex-direction: column;
+  }
 }
