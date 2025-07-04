@@ -219,3 +219,29 @@
     flex-direction: column;
   }
 }
+
+/* Run-an-Extra-Mile-Easily */
+.tiitle-trng-exc {
+  font-size: 3rem;
+}
+.dicrptn-trng-exc {
+  font-size: 1rem;
+}
+.run-exp-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.container-run-exp {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.run-exp-imeges {
+  margin-right: 5px;
+}
+/* responsive run-exp */
+@media screen and (max-width: 576px) {
+  .container-run-exp {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
